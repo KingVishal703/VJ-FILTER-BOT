@@ -95,8 +95,8 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Token Verification Info :
-VERIFY = bool(environ.get('VERIFY', False))
-VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
+VERIFY = bool(environ.get('VERIFY', True))
+VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', True))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'onepagelink.in')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'bb4fe32579f62c64f8adc6ff6872aa8063558084')
 # if verify second shortner is True then fill below url and api
@@ -142,7 +142,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "wonderful-bison-vibro1-b0cc6980.koyeb.app/")
+URL = environ.get("URL", "https://wonderful-bison-vibro1-b0cc6980.koyeb.app/")
 
 
 # Rename Info : If True Then Bot Rename File Else Not
