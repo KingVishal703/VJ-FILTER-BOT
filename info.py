@@ -105,9 +105,9 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '8cb42dcb724c
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/How_To_Open_AllLinks/19')
 
 # Shortlink Info
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
-SHORTLINK_API = environ.get('SHORTLINK_API', '')
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shrs.link')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'X5h4uvYH83YSso3xU7vCAjGigZZ2')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
