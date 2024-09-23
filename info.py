@@ -105,7 +105,7 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '8cb42dcb724c
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/How_To_Open_AllLinks/19')
 
 # Shortlink Info
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'moviesking.in.net')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'df9cb224c37eae97806e3669744a7f9f6d5b0770')
 
